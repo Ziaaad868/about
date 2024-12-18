@@ -1,0 +1,138 @@
+                                    /* Start Global Rules */
+                                    
+                                    * {
+                                        box-sizing: border-box;
+                                        padding: 0px;
+                                        margin: 0px;
+                                    }
+                                    
+                                    body {
+                                        background-color: black;
+                                        color: white;
+                                        font-family: "Marhey", sans-serif;
+                                        padding-left: 70px;
+                                        padding-right: 70px;
+                                    }
+                                    /* Start Header */
+                                    
+                                    .header {
+                                        padding-top: 20px;
+                                        padding-bottom: 20px;
+                                        border-bottom: 1px white solid;
+                                    }
+                                    
+                                    .header .container {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        font-family: "Playfair Display", serif;
+                                    }
+                                    
+                                    .header .logo {
+                                        width: 60px;
+                                    }
+                                    /* End Header */
+                                    
+                                    .main-heading p {
+                                        font-weight: normal;
+                                        font-size: 20px;
+                                        position: relative;
+                                        text-transform: uppercase;
+                                        font-family: "Marhey", sans-serif;
+                                        text-align: center;
+                                        color: #ffffff;
+                                    }
+                                    /* Start Landing */
+                                    
+                                    .landingm {
+                                        position: relative;
+                                    }
+                                    
+                                    .landingm .container {
+                                        min-height: calc(100vh - 72px);
+                                        display: flex;
+                                        align-items: center;
+                                        padding-bottom: 120px;
+                                    }
+                                    
+                                    .landingm .text {
+                                        flex: 1;
+                                    }
+                                    
+                                    .landingm .text h1 {
+                                        font-size: 40px;
+                                        margin: 0;
+                                        letter-spacing: -2px;
+                                    }
+                                    
+                                    .landingm .text p {
+                                        font-size: 23px;
+                                        line-height: 1.7;
+                                        margin: 5px 0 0;
+                                        color: #666;
+                                        max-width: 500px;
+                                    }
+                                    
+                                    .landingm .image img {
+                                        position: relative;
+                                        width: 600px;
+                                        animation: up-and-down 5s linear infinite;
+                                    }
+                                    
+                                    .landingm .go-down {
+                                        color: var(--main-color);
+                                        position: absolute;
+                                        bottom: 30px;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                        transition: var(--main-transition);
+                                    }
+                                    
+                                    .zz {
+                                        padding: 550px;
+                                        padding-top: 120px;
+                                    }
+                                    /* إعداد عام للصفحة */
+                                    
+                                    .container {
+                                        display: flex;
+                                        justify-content: space-around;
+                                        /* توزيع العناصر بالتساوي */
+                                        flex-wrap: wrap;
+                                        /* السماح بالانتقال لصف جديد إذا كانت الشاشة ضيقة */
+                                        gap: 20px;
+                                        margin: 20px auto;
+                                        width: 90%;
+                                    }
+                                    /* تصميم صندوق الخدمة */
+                                    
+                                    .service-box {
+                                        background-color: #fff;
+                                        border: 1px solid #ddd;
+                                        border-radius: 10px;
+                                        padding: 15px;
+                                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                        width: 22%;
+                                        /* كل صندوق يأخذ 22% من عرض الشاشة */
+                                        text-align: center;
+                                    }
+                                    
+                                    .service-box img {
+                                        width: 100%;
+                                        height: 150px;
+                                        /* ارتفاع ثابت للصور */
+                                        object-fit: cover;
+                                        border-radius: 10px;
+                                    }
+                                    
+                                    .service-box h2 {
+                                        font-size: 18px;
+                                        color: #333;
+                                        margin: 10px 0;
+                                    }
+                                    
+                                    .service-box p {
+                                        font-size: 14px;
+                                        color: #666;
+                                        line-height: 1.5;
+                                    }
+                                    /*End Landing*/
